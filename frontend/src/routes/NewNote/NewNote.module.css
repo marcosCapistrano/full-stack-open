@@ -1,0 +1,39 @@
+.titleContainer {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  background: none;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.title:placeholder-shown {
+  background: linear-gradient(#fff, #fff) center bottom 0px / calc(100% - 10px)
+    2px no-repeat;
+}
+
+.title::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.textArea {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  font-family: "Fredericka the Great", cursive;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.textArea:focus {
+  outline: none;
+  border: none;
+  caret-color: #fff;
+}

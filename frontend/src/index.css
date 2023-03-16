@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Fredericka the Great', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-bg-color: #283618;
+  --secondary-bg-color: #bc6c25;
+  --font-color: #fff;
+
+  background-color: var(--primary-bg-color);
+  color: var(--font-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.note {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-active {
+  text-decoration: underline;
+}
+
+h1 {
+    font-weight: normal;
+}
